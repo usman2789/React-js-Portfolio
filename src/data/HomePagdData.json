@@ -1,24 +1,28 @@
 {
   "hero": {
     "imgUrl": "/images/home-banner.png",
-    "name": "Jenna Ortega",
-    "heading": "Hay! I’m Jenna",
-    "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
-    "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
+    "name": "Muhammad Usman",
+    "heading": "Hay! I’m Usman",
+    "typingText": ["I'm a Developer", 1500, "I'm an Innovator", 1500],
+    "description": "I am a creative developer, building user-friendly websites and apps. Passionate about solving problems, crafting experiences, and exploring the latest technologies to enhance digital innovation and usability.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
   "socialBtns": [
-    {
-      "icon": "fa-brands:facebook-f",
-      "iconBgClass": "facebook",
-      "href": "/"
+    { 
+      "icon": "fa-brands:github", 
+      "iconBgClass": "github", 
+      "href": "https://github.com/usman2789" 
     },
-    { "icon": "fa-brands:dribbble", "iconBgClass": "dribbble", "href": "/" },
-    {
-      "icon": "fa-brands:linkedin-in",
-      "iconBgClass": "linkedin",
-      "href": "/"
+    { 
+      "icon": "fa-brands:instagram", 
+      "iconBgClass": "instagram", 
+      "href": "https://instagram.com/muhmd_usman" 
+    },
+    { 
+      "icon": "fa-brands:linkedin-in", 
+      "iconBgClass": "linkedin", 
+      "href": "https://linkedin.com/in/muhammad-usman-0ba87a289/" 
     }
   ],
   "brands": [
@@ -270,8 +274,8 @@
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "sample@domain.com" },
-      { "title": "write an e-mail", "tel": "+044 9696 9696 3636" }
+      { "title": "Write an e-mail", "email": "usman@behtarkal.com" },
+      { "title": "write an e-mail", "tel": "+92 328-4151517" }
     ]
   }
 }
