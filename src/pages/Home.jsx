@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Brands from '../components/Brands';
 import Projects from '../components/Projects';
 import Testimonial from '../components/Testimonial';
@@ -8,6 +8,8 @@ import Service from '../components/Service';
 import HomePagdData from '../data/HomePagdData.json';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
+import Blog from '../components/Blog';
+import BlogData from '../data/BlogData.json';
 
 export default function Home() {
   const {
@@ -21,6 +23,7 @@ export default function Home() {
     testimonial,
     contact,
   } = HomePagdData;
+  
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />
@@ -29,6 +32,7 @@ export default function Home() {
       <Projects data={projects} />
       <Service data={service} />
       <Experience data={experience} />
+      <Blog data={BlogData} />
       <Testimonial data={testimonial} />
       <Contact data={contact} socialData={socialBtns} />
     </>

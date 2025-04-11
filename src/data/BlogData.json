@@ -1,0 +1,64 @@
+{
+  "sectionHeading": {
+    "miniTitle": "MY BLOG",
+    "title": "Latest <span>Insights</span> & Articles"
+  },
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Future of AI in Web Development",
+      "excerpt": "Exploring how artificial intelligence is revolutionizing the way we build and maintain websites...",
+      "category": "Technology",
+      "date": "April 10, 2025",
+      "readTime": "5 min read",
+      "image": "/images/popup-project-1.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "author": {
+        "name": "Muhammad Usman",
+        "avatar": "/images/avatar-1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Optimizing React Performance",
+      "excerpt": "Learn the best practices and techniques to make your React applications blazing fast...",
+      "category": "Development",
+      "date": "April 8, 2025",
+      "readTime": "7 min read",
+      "image": "/images/popup-project-2.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "author": {
+        "name": "Muhammad Usman",
+        "avatar": "/images/avatar-2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Modern UI/UX Principles",
+      "excerpt": "Discover the latest trends and principles in creating engaging user interfaces...",
+      "category": "Design",
+      "date": "April 5, 2025",
+      "readTime": "6 min read",
+      "image": "/images/popup-project-3.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "author": {
+        "name": "Muhammad Usman",
+        "avatar": "/images/avatar-3.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "The Future of AI in Web Development",
+      "excerpt": "Exploring how artificial intelligence is revolutionizing the way we build and maintain websites...",
+      "category": "Technology",
+      "date": "April 10, 2025",
+      "readTime": "5 min read",
+      "image": "/images/popup-project-1.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "author": {
+        "name": "Muhammad Usman",
+        "avatar": "/images/avatar-1.jpg"
+      }
+    }
+  ]
+}
