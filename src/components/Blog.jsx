@@ -3,6 +3,26 @@ import SectionHeading from './SectionHeading';
 import BlogCard from './BlogCard';
 import BlogModal from './BlogModal';
 import Slider from 'react-slick';
+import { Icon } from '@iconify/react';
+
+// Custom arrow components
+const NextArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <button className="slick-arrow next" onClick={onClick}>
+      <Icon icon="bi:arrow-right" />
+    </button>
+  );
+};
+
+const PrevArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <button className="slick-arrow prev" onClick={onClick}>
+      <Icon icon="bi:arrow-left" />
+    </button>
+  );
+};
 
 export default function Blog({ data }) {
   const { sectionHeading, blogs } = data;
@@ -10,12 +30,14 @@ export default function Blog({ data }) {
   
   const desktopSettings = {
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     autoplay: false,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />
   };
 
   const mobileSettings = {

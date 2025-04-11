@@ -836,6 +836,43 @@ a {
       padding: 0 12px;
     }
   }
+
+  position: relative;
+
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--px-theme);
+    border: none;
+    color: var(--px-white);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--px-black);
+    }
+
+    &.prev {
+      left: -50px;
+    }
+
+    &.next {
+      right: -50px;
+    }
+
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 767px) {
