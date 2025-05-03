@@ -23,7 +23,7 @@ export default function Projects({ data }) {
 
   var settings = {
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     autoplay: false,
     autoplaySpeed: 4000,
