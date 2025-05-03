@@ -8,8 +8,8 @@ import Service from '../components/Service';
 import HomePagdData from '../data/HomePagdData.json';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
-import Blog from '../components/Blog';
-import BlogData from '../data/BlogData.json';
+// import Blog from '../components/Blog';
+// import BlogData from '../data/BlogData.json';
 
 export default function Home() {
   const {
@@ -32,7 +32,7 @@ export default function Home() {
       <Projects data={projects} />
       <Service data={service} />
       <Experience data={experience} />
-      <Blog data={BlogData} />
+{/*       <Blog data={BlogData} /> */}
       <Testimonial data={testimonial} />
       <Contact data={contact} socialData={socialBtns} />
     </>
