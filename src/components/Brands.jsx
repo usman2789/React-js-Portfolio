@@ -7,7 +7,7 @@ export default function Brands({ data }) {
     arrows: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 1000,
     speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 1,
