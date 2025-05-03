@@ -298,7 +298,7 @@
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
       { "title": "Write an e-mail", "email": "usman@digitaluq.com" },
-      { "title": "write an e-mail", "tel": "+92 328-4151517" }
+      { "title": "conatct number", "tel": "+92 328-4151517" }
     ]
   }
 }
