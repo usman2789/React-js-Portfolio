@@ -4,7 +4,7 @@
     "name": "Muhammad Usman",
     "heading": "Hay! I’m Usman",
     "typingText": ["I'm a Dev", 1500, "YOU'RE IN DEV ZONE!", 1500, "I TYPE, BUGS TAKE FLIGHT!", 1500],
-    "description": "I am a creative developer, building user-friendly websites and apps. Passionate about solving problems, crafting experiences, and exploring the latest technologies to enhance digital innovation and usability.",
+    "description": "Creative developer turning ideas into smooth, impactful digital experiences — one line of code at a time.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
@@ -26,48 +26,44 @@
     }
   ],
   "brands": [
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
+   {
+      "src": "/images/reactjs.svg",
+      "alt": "React js"
     },
     {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
+      "src": "/images/nextjs.svg",
+      "alt": "Next js"
     },
     {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
+      "src": "/images/supabase.svg",
+      "alt": "Supabase"
     },
     {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
+      "src": "/images/tailwindcss.svg",
+      "alt": "Tailwind Css"
     },
     {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
+      "src": "/images/postgre.svg",
+      "alt": "Postgre Sql"
     },
     {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
+      "src": "/images/nodejs.svg",
+      "alt": "Node js"
     },
     {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Ignite.pk"
+      "src": "/images/version.svg",
+      "alt": "Version Control"
     }
   ],
   "about": {
     "imgSrc": "/images/about-banner.png",
     "miniTitle": "About Us",
     "title": "I AM AVAILABLE FOR <span>DEVELOPMENT</span> PROJECTS",
-    "description": "I craft modern websites, AI-driven applications, and eCommerce platforms, blending innovation with performance. From SEO strategies to custom web solutions, I help businesses grow and thrive in the digital space. Let’s build something exceptional! 🚀",
+    "description": "I craft modern websites with AI integrations, fully responsive design, and high-speed performance — from sleek eCommerce platforms to scalable custom solutions. With smart SEO strategies and clean development, I help businesses grow and thrive in the digital space. Let’s build something exceptional! 🚀",
     "funfacts": [
       {
         "title": "Positive Review",
-        "number": 100
+        "number": 75+
       },
       {
         "title": "Years Experience",
@@ -75,7 +71,7 @@
       },
       {
         "title": "Completed Projects",
-        "number": 40
+        "number": 25+
       }
     ],
     "btnText": "Get in touch",
