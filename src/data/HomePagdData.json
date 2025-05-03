@@ -27,7 +27,7 @@
   ],
   "brands": [
    {
-      "src": "/images/reactjs.svg",
+      "src": "/reactjs.svg",
       "alt": "React js"
     },
     {
