@@ -63,15 +63,15 @@
     "funfacts": [
       {
         "title": "Positive Review",
-        "number": 75+
+        "number": "75+"
       },
       {
         "title": "Years Experience",
-        "number": 1
+        "number": "1"
       },
       {
         "title": "Completed Projects",
-        "number": 25+
+        "number": "25+"
       }
     ],
     "btnText": "Get in touch",
@@ -97,6 +97,20 @@
           "url": "www.zocialplug.com"
         }
       },
+       {
+        "thumbUrl": "/images/popup-project6.jpg",
+        "title": "Taleem ka Safar",
+        "subTitle": " Development",
+        "details": {
+          "title": "Education Website ",
+          "description": "Design and develop educational site for university entrance exam tests practice.",
+          "type": "Website",
+          "langages": " Next js,Supabase,Clerk",
+          "platform": "Custom (Built with Code)",
+          "country": "Pakistan",
+          "url": "www.taleemkasafar.com"
+        }
+      },
       {
         "thumbUrl": "/images/popup-project-2.png",
         "title": "AQ Solar Solutions",
@@ -109,6 +123,20 @@
           "platform": "WordPress",
           "country": "Pakistan",
           "url": "www.aqsolarsolution.com"
+        }
+      },
+        {
+        "thumbUrl": "/images/popup-project5.jpg",
+        "title": "TechVoc Institute",
+        "subTitle": " Development",
+        "details": {
+          "title": "Develop website for Instiute ",
+          "description": "Developed TechVoc Institute site, a training institute website that offer different short courses and diplomas.",
+          "type": "Website",
+          "langages": " HTML, CSS, JS",
+          "platform": "Custom (Built with Code)",
+          "country": "Pakistan",
+          "url": "www.techvocinstitute.com"
         }
       },
       {
