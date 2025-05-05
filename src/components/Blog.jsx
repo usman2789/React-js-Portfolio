@@ -73,7 +73,7 @@ export default function Blog({ data }) {
   };
 
   return (
-    <section className="section gray-bg">
+    <section className="section gray-bg" id="blog">
       <div className="container">
         <SectionHeading
           miniTitle={sectionHeading.miniTitle}

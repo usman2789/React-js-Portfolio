@@ -1,38 +1,66 @@
 import { Icon } from '@iconify/react';
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import SectionHeading from './SectionHeading';
 import Slider from 'react-slick';
 import Modal from './Modal';
+
+// Custom arrow components
+const NextArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <button className="slick-arrow next" onClick={onClick}>
+      <Icon icon="bi:arrow-right" />
+    </button>
+  );
+};
+
+const PrevArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <button className="slick-arrow prev" onClick={onClick}>
+      <Icon icon="bi:arrow-left" />
+    </button>
+  );
+};
 
 export default function Projects({ data }) {
   const [modal, setModal] = useState(false);
   const [modalType, setModalType] = useState('image');
   const [modalData, setModalData] = useState({});
   const { sectionHeading, allProjects } = data;
-  const handelProjectDetails = (item, itemType) => {
-    if (itemType === 'image') {
-      setModalData(item);
-    } else {
-      setModalData(item);
-    }
-    setModalType(itemType);
 
+  const handelProjectDetails = (item, itemType) => {
+    setModalData(item);
+    setModalType(itemType);
     setModal(!modal);
-    console.log(modalType);
   };
 
-  var settings = {
+  const settings = useMemo(() => ({
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     autoplay: false,
-    autoplaySpeed: 4000,
-    speed: 1000,
-    slidesToShow: 1,
+    speed: 800,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
-    variableWidth: true,
-  };
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          arrows: false
+        }
+      }
+    ]
+  }), []);
 
   return (
     <>
@@ -43,17 +71,17 @@ export default function Projects({ data }) {
             title={sectionHeading.title}
           />
           <div
-            className="full-width"
+            className="project-wrapper"
             data-aos="fade"
             data-aos-duration="1200"
             data-aos-delay="400"
           >
             <Slider {...settings} className="slider-gap-24">
               {allProjects?.map((item, index) => (
-                <div key={index} style={{ width: '416px' }}>
+                <div key={index}>
                   <div className="project-box">
                     <div className="project-media">
-                      <img src={item.thumbUrl} alt="Thumb" />
+                      <img src={item.thumbUrl} alt={item.title} loading="lazy" />
                       <span
                         className="gallery-link"
                         onClick={() => handelProjectDetails(item, 'image')}
@@ -87,17 +115,17 @@ export default function Projects({ data }) {
       {modal && (
         <div className="mfp-wrap">
           <div className="mfp-container">
-            <div className="mfp-bg" onClick={() => setModal(!modal)}></div>
+            <div className="mfp-bg" onClick={() => setModal(false)}></div>
             <div className="mfp-content">
               <button
                 type="button"
                 className="mfp-close"
-                onClick={() => setModal(!modal)}
+                onClick={() => setModal(false)}
               >
                 ×
               </button>
               {modalType === 'image' ? (
-                <img src={modalData.thumbUrl} alt="Thumbnail" />
+                <img src={modalData.thumbUrl} alt={modalData.title} loading="lazy" />
               ) : (
                 <Modal modalData={modalData} />
               )}

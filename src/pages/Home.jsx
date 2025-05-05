@@ -32,7 +32,7 @@ export default function Home() {
       <Projects data={projects} />
       <Service data={service} />
       <Experience data={experience} />
-{/*       <Blog data={BlogData} /> */}
+      {/* <Blog data={BlogData} /> */}
       <Testimonial data={testimonial} />
       <Contact data={contact} socialData={socialBtns} />
     </>

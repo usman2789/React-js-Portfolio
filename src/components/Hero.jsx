@@ -11,6 +11,11 @@ export default function Hero({ data, socialData }) {
     <section className="home-section" id="home" data-scroll-index={0}>
       <div className="container">
         <div className="row align-items-center">
+        <div className="col-lg-6">
+            <div className="hs-banner">
+              <img src={imgUrl} title alt="Admin" />
+            </div>
+          </div>
           <div className="col-lg-6">
             <div className="hs-text-box">
               <h6 data-aos="fade-up" data-aos-duration="1200">
@@ -49,6 +54,10 @@ export default function Hero({ data, socialData }) {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
+                 <SocialBtns
+                  socialBtns={socialData}
+                  variant=" mb-3 ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start"
+                />
                 <ScrollLink
                   to={btnUrl}
                   spy={true}
@@ -59,21 +68,14 @@ export default function Hero({ data, socialData }) {
                 >
                   <span>{btnText}</span>{' '}
                   <i className="d-flex">
-                    <Icon icon="bi:arrow-right" />
+                    <Icon icon="bi:arrow-down" />
                   </i>
                 </ScrollLink>
-                <SocialBtns
-                  socialBtns={socialData}
-                  variant="ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start"
-                />
+               
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="hs-banner">
-              <img src={imgUrl} title alt="Admin" />
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
