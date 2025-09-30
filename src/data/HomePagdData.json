@@ -1,0 +1,346 @@
+{
+  "hero": {
+    "imgUrl": "/images/home-banner.png",
+    "name": "Muhammad Usman",
+    "heading": "Hay! I’m Usman",
+    "typingText": ["I'm a Dev", 1500, "YOU'RE IN DEV ZONE!", 1500, "I TYPE, BUGS TAKE FLIGHT!", 1500],
+    "description": "Creative developer turning ideas into smooth, impactful digital experiences — one line of code at a time.",
+    "btnText": "Let's Connect",
+    "btnUrl": "contactus"
+  },
+  "socialBtns": [
+    { 
+      "icon": "fa-brands:github", 
+      "iconBgClass": "github", 
+      "href": "https://github.com/usman2789" 
+    },
+    { 
+      "icon": "fa-brands:instagram", 
+      "iconBgClass": "instagram", 
+      "href": "https://instagram.com/_muhmdusman_" 
+    },
+    { 
+      "icon": "fa-brands:linkedin-in", 
+      "iconBgClass": "linkedin", 
+      "href": "https://linkedin.com/in/muhammad-usman-0ba87a289/" 
+    },
+    { 
+      "icon": "fa-solid:certificate", 
+      "iconBgClass": "credly", 
+      "href": "https://credly.com/users/usman2789" 
+    }
+  ],
+  "brands": [
+   {
+      "src": "/images/reactjs.svg",
+      "alt": "React js"
+    },
+    {
+      "src": "/images/nextjs.svg",
+      "alt": "Next js"
+    },
+    {
+      "src": "/images/aws.svg",
+      "alt": "AWS"
+    },
+    {
+      "src": "/images/tailwindcss.svg",
+      "alt": "Tailwind Css"
+    },
+    {
+      "src": "/images/sql.svg",
+      "alt": " Sql"
+    },
+    {
+      "src": "/images/nodejs.svg",
+      "alt": "Node js"
+    },
+    {
+      "src": "/images/version.svg",
+      "alt": "Version Control"
+    },
+     {
+      "src": "/images/wordpress.svg",
+      "alt": "Wordpress"
+    }
+    ,
+     {
+      "src": "/images/shopify.svg",
+      "alt": "Shopify"
+    }
+    
+    
+  ],
+  "about": {
+    "imgSrc": "/images/about-banner.png",
+    "miniTitle": "About Me",
+    "title": "I AM AVAILABLE FOR <span>DEVELOPMENT</span> PROJECTS",
+    "description": "I create smooth, high-performance websites—ranging from sleek eCommerce platforms to dynamic custom solutions—with AI integrations and SEO-friendly architecture. Backed by multiple certifications and hands-on projects, I combine clean development with smart design to help businesses grow and thrive in the digital space. Let’s build something exceptional! 🚀"
+,
+    "funfacts": [
+      {
+        "title": "Positive Review",
+        "number": "50"
+      },
+      {
+        "title": "Years Experience",
+        "number": "1"
+      },
+      {
+        "title": "Completed Projects",
+        "number": "25"
+      }
+    ],
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "My Work",
+      "title": "RECENT PROJECT"
+    },
+    "allProjects": [
+      {
+        "thumbUrl": "/images/project6.png",
+        "title": "Taleem ka Safar",
+        "subTitle": " Development",
+        "details": {
+          "title": "Education Website ",
+          "description": "Design and develop educational site for university entrance exam tests practice.",
+          "type": "Website",
+          "langages": " Next js,Clerk",
+          "platform": "Custom (Built with Code)",
+          "country": "Pakistan",
+          "url": "www.taleemkasafar.com"
+        }
+      },
+      
+       
+      {
+        "thumbUrl": "/images/popup-project-2.png",
+        "title": "AQ Solar Solutions",
+        "subTitle": "Website Development",
+        "details": {
+          "title": "Website  Development for Solar Company",
+          "description": "Developed Aq Solar Solution, a solar energy website designed for lead generation and customer engagement. Optimized for SEO, performance, and user-friendly navigation to enhance online visibility and conversions.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "Pakistan",
+          "url": "www.aqsolarsolution.com"
+        }
+      },
+        {
+        "thumbUrl": "/images/altaj.png",
+        "title": "Al Taj Ristorante",
+        "subTitle": " Ristorante",
+        "details": {
+          "title": "Under Development Italian Ristorante ",
+          "description": "Developed an italian base resturant site , Al Taj Ristorante , a restaurant website that offers a variety of Pak-Indian dishes and a seamless online ordering experience.",
+          "type": "Website",
+          "langages": " Next js",
+          "platform": "Custom (Built with Code)",
+          "country": "Pakistan",
+          "url": "www.altaj-ristorante.it"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-1.png",
+        "title": "Zocial Plug",
+        "subTitle": " Development",
+        "details": {
+          "title": "Develop website for Marketing Agency ",
+          "description": "Developed Zocial Plug, a marketing agency website offering branding, social media management, and digital growth strategies. Designed for performance, and user engagement to help businesses maximize their online presence.",
+          "type": "Website",
+          "langages": " HTML, CSS, JS",
+          "platform": "Custom (Built with Code)",
+          "country": "USA",
+          "url": "www.zocialplug.vercel.app"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-3.png",
+        "title": "Digitaluq",
+        "subTitle": "Website Development",
+        "details": {
+          "title": "Website Design & development for International Marketing Agency",
+          "description": "Built DigitalUQ, a marketing agency website designed for brand visibility, client acquisition, and SEO optimization. Features a sleek UI, fast performance, and strategic content placement to enhance digital growth and engagement.",
+          "type": "Website",
+          "langages": "HTML, CSS, JS",
+          "platform": "Custom (Built with Code)",
+          "country": "USA",
+          "url": "www.digitaluq.vercel.app"
+        }
+      },
+      {
+        "thumbUrl": "/images/media.png",
+        "title": "Money Makers Media",
+        "subTitle": "News Magazine Website Development",
+        "details": {
+          "title": "News Magazine Website Development",
+          "description": "Developed a news magazine website designed for seamless content delivery and user engagement. Built with WordPress, and optimized for  fast performance to maximize customer engagement.",
+          "type": "Website",
+          "langages": " Html, CSS, JS,Jquery",
+          "platform": "WordPress",
+          "country": "UAE",
+          "url": "www.moneymakersmedia.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/ync.png",
+        "title": "Yousaf n Company",
+        "subTitle": " Website Development",
+        "details": {
+          "title": "Aluminium  Services- Website Development",
+          "description": "Developed a website for Yousaf n Company, specializing in aluminium and glass services. The site features a modern design, service showcases, and a user-friendly interface.",
+          "type": "Website",
+          "langages": " Html, CSS, JS,Jquery",
+          "platform": "WordPress",
+          "country": "Pakistan",
+          "url": "www.yousafncompany.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-4.png",
+        "title": "Theignite.pk",
+        "subTitle": "Ecommerce Store  Development",
+        "details": {
+          "title": "Store Design and Devlopment for Startup",
+          "description": "Developed TheIgnite.pk, a feature-rich eCommerce store designed for seamless shopping experiences. Built with Shopify, secure payment gateways, and optimized for SEO & fast performance to maximize sales and customer engagement.[No more live]",
+          "type": "Website",
+          "langages": " Liquid, CSS, JS",
+          "platform": "Shopify",
+          "country": "Pakistan",
+          "url": "www.theignite.pk"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-4.jpg",
+        "title": "ArabescoBazaar",
+        "subTitle": " Store Development",
+        "details": {
+          "title": "Ecommerce store development",
+          "description": "Developed Arabesco Bazaar, a Shopify-based eCommerce store offering a seamless shopping experience. Integrated with secure payment gateways, mobile-friendly design, and SEO optimization to enhance conversions and brand visibility.[No more live]",
+          "type": "Website",
+          "langages": "Liquid, CSS, JS",
+          "platform": "Shopify",
+          "country": "UAE",
+          "url": "www.arabescobazaar.com"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "SERVICES",
+      "title": "<span>services</span> I am providing"
+    },
+    "allService": [
+      {
+        "imgUrl": "/images/service-01.png",
+        "title": "Full-Stack Web Development",
+        "subTitle": "Scalable apps with React, Next.js, Node.js & secure db.",
+        "icon": "bi:code-slash",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-02.png",
+        "title": "AI-Powered Web Solutions",
+        "subTitle": "AI chatbots, automation & smart recommendations for websites.",
+        "icon": "bi:robot",
+        "ratings": 4.5
+      },
+      {
+        "imgUrl": "/images/service-03.png",
+        "title": "E-Commerce Development",
+        "subTitle": "Shopify & WooCommerce stores with seamless payments & UX.",
+        "icon": "bi:cart-check",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-04.png",
+        "title": "SEO & Digital Optimization",
+        "subTitle": "Boost rankings with SEO, speed & content strategies.",
+        "icon": "bi:graph-up",
+        "ratings": 5
+      }
+    ]
+  },
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "Experience",
+      "title": "My Work <span>Experience</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "FUll Stack Developer",
+        "company": "DigiTaluq | REMOTE",
+        "duration": "DEC 2024 - July 2025",
+        "jobType": "Part Time",
+        "companyTitle": "DigiTaluq",
+        "companyDescription": "During my time at DigiTaluq, I build smooth, high-performance websites primarily using Shopify, WordPress, HTML, CSS, JavaScript, React.js and Next js. I focus on creating responsive designs, optimizing SEO for better visibility, and delivering seamless user experiences that help businesses grow online."
+      },
+      {
+        "designation": "Full Stack Developer",
+        "company": "Freelancing | REMOTE",
+        "duration": "OCT 2024-DEC 2024",
+        "jobType": "Full time",
+        "companyTitle": "Freelancing",
+        "companyDescription": "As a Freelance Developer, I have hands-on experience working on diverse projects across various domains. I have successfully delivered custom web applications,  e-commerce platforms, and SEO-optimized websites for clients. My projects come from local businesses, market referrals, and professional networks, allowing me to work on unique challenges and deliver tailored solutions. With expertise in React, Next.js, Node.js, database management, Wordpress and Shopify, I help businesses establish a strong digital presence and optimize their online operations."
+      },
+      {
+        "designation": "Front-end Developer",
+        "company": "Daira Eng. | ON_Site",
+        "duration": "JULY 2024 - SEPT 2024",
+        "jobType": "Full time",
+        "companyTitle": "Daira Eng.",
+        "companyDescription": "I began my professional career at Daira Engineering, where I gained hands-on experience in modern web development. During my time there, I worked extensively with React and Tailwind CSS, building dynamic and responsive user interfaces. It was at Daira Engineering that I first explored Next.js and Node.js, deepening my understanding of full-stack development. This experience laid the foundation for my expertise in creating scalable web applications and integrating efficient front-end and back-end technologies."
+      }
+    ]
+  },
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Testimonial",
+      "title": "Over <span>1,000+</span> <br /> PEOPLE TRUST ME"
+    },
+    "allTestimonial": [
+     
+      {
+        "reviewText": "I've known Muhammad Usman for a long time, and his passion for technology is truly inspiring. He has exceptional skills in Next.js, Supabase, and Generative AI integration for web applications, always staying ahead of the curve. Beyond his technical expertise, he’s deeply involved in AWS community events, constantly learning and sharing his knowledge. His creative mindset and dedication to innovation make him a valuable asset. I highly recommend him for any role that requires a skilled and forward-thinking developer.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Sumama Zaeem",
+        "avatarCompany": "AWS Community Leader"
+      },
+      {
+        "reviewText": "I've had the pleasure of working with Usman on multiple projects at DigitalUQ, and his technical expertise is truly outstanding. He has a deep understanding of Next.js, React.js, Supabase, and Node.js, along with strong experience in CMS development and AI model integration. His problem-solving skills and ability to build scalable, high-performance applications make him an invaluable asset. ",
+        "avatarImg": "/images/avatar-3.jpg",
+        "avatarName": "Talha Waheed",
+        "avatarCompany": "CEO-Digitaluq"
+      },
+      {
+        "reviewText": "Working with Usman has been an amazing experience. His expertise in Tailwind CSS and creative web design has helped us build visually stunning and highly functional websites. He has a great eye for detail and ensures that every design is both modern and user-friendly. His ability to translate ideas into beautifully crafted digital experiences makes him a valuable asset. I highly recommend him for any role that requires a skilled and creative web developer.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Zayd",
+        "avatarCompany": "Founder, Zocial Plug"
+      },
+      {
+        "reviewText": "I've seen Usman build an impressive mock entrance exam test platform, and his work truly stands out. His expertise in Supabase, advanced analytics, and AI integration—especially with Gemini 2.0—showcases his ability to create intelligent and data-driven applications. The way he approached problem-solving and innovation in this project was remarkable. His dedication to building cutting-edge solutions makes him an exceptional developer, and I highly recommend him for any role that requires expertise in AI-driven web applications.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Asim Zeeshan",
+        "avatarCompany": "Head of AI,Senarios"
+      }
+      
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "Let’s Discuss Your Project",
+      "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
+    },
+    "contactImg": "/images/contact-us.png",
+    "contactInfo": [
+      { "title": "Write an e-mail", "email": "hi@muhmdusman.site" },
+      { "title": "conatct number", "tel": "+92 330 1358202" }
+    ]
+  }
+}

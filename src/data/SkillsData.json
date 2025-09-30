@@ -1,0 +1,127 @@
+{
+  "skills": {
+    "sectionHeading": {
+      "miniTitle": "Technical Skills",
+      "title": "My <span>Technical</span> Expertise"
+    },
+    "skillCategories": {
+      "languages": [
+        {
+          "src": "/images/html.svg",
+          "alt": "HTML",
+          "name": "HTML",
+          "level": 95
+        },
+        {
+          "src": "/images/css.svg",
+          "alt": "CSS",
+          "name": "CSS",
+          "level": 92
+        },
+        {
+          "src": "/images/js.svg",
+          "alt": "JavaScript",
+          "name": "JavaScript",
+          "level": 88
+        },
+        {
+          "src": "/images/sql.svg",
+          "alt": "SQL",
+          "name": "SQL",
+          "level": 82
+        }
+      ],
+      "frameworks": [
+        {
+          "src": "/images/reactjs.svg",
+          "alt": "React",
+          "name": "React",
+          "level": 95
+        },
+        {
+          "src": "/images/nextjs.svg",
+          "alt": "Next.js",
+          "name": "Next.js",
+          "level": 90
+        },
+        {
+          "src": "/images/tailwindcss.svg",
+          "alt": "Tailwind CSS",
+          "name": "Tailwind CSS",
+          "level": 92
+        },
+        {
+          "src": "/images/shadcnui.svg",
+          "alt": "ShadCN UI",
+          "name": "ShadCN UI",
+          "level": 85
+        }
+      ],
+      "platforms": [
+       
+        {
+          "src": "/images/wordpress.svg",
+          "alt": "WordPress",
+          "name": "WordPress",
+          "level": 88
+        },
+        {
+          "src": "/images/shopify.svg",
+          "alt": "Shopify",
+          "name": "Shopify",
+          "level": 85
+        },
+         {
+          "src": "/images/aws.svg",
+          "alt": "AWS",
+          "name": "AWS",
+          "level": 75
+        },
+        {
+          "src": "/images/vercel.svg",
+          "alt": "Vercel",
+          "name": "Vercel",
+          "level": 88
+        },
+        {
+          "src": "/images/version.svg",
+          "alt": "Version Control",
+          "name": "Git/GitHub",
+          "level": 90
+        },
+        {
+          "src": "/images/clerk.svg",
+          "alt": "Clerk",
+          "name": "Clerk",
+          "level": 88
+        }
+      ],
+      "other": [
+        {
+          "src": "/images/seo.svg",
+          "alt": "SEO Optimization",
+          "name": "SEO Optimization",
+          "level": 85
+        },
+        {
+          "src": "/images/effect-4.svg",
+          "alt": "Responsive Design",
+          "name": "Responsive Design",
+          "level": 95
+        },
+        {
+          "src": "/images/figma.svg",
+          "alt": "Designing",
+          "name": "Figma",
+          "level": 88
+        },
+        {
+          "src": "/images/effect-2.svg",
+          "alt": "Gemini API",
+          "name": "Gemini API",
+          "level": 80
+        }
+      ]
+    }
+  }
+}
