@@ -25,7 +25,7 @@ export default function ContactForm() {
     setSubmitStatus('');
 
     // Replace with your actual Web3Forms access key
-    const ACCESS_KEY = process.env.REACT_APP_WEB3FORMS_KEY || 'b6d8943b-3631-451d-90ab-45adee50c888';
+    const ACCESS_KEY = process.env.REACT_APP_WEB3FORMS_KEY || '644d0607-22ea-4461-9c1f-a7ab9357d47a';
 
     try {
       const formData = new FormData(event.target);
