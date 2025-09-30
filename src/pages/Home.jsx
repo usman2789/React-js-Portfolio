@@ -1,5 +1,5 @@
 import React from 'react';
-// import Brands from '../components/Brands';
+
 import Projects from '../components/Projects';
 import Testimonial from '../components/Testimonial';
 import Hero from '../components/Hero';
@@ -17,7 +17,7 @@ export default function Home() {
   const {
     hero,
     socialBtns,
-    // brands,
+   
     about,
     projects,
     service,
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />
-      {/* <Brands data={brands} /> */}
+  
       <About data={about} />
       <SkillsComponent data={skills} />
       <Projects data={projects} />

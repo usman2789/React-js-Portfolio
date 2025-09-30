@@ -50,18 +50,7 @@ export default function Header() {
               Home
             </ScrollLink>
           </li>
-          {/* <li>
-            <ScrollLink
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
-              onClick={() => setMobileToggle(false)}
-            >
-              About Me
-            </ScrollLink>
-          </li> */}
+       
           <li>
             <ScrollLink
               to="skills"
