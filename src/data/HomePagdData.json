@@ -161,11 +161,7 @@
           "title": "Education Website ",
           "description": "Design and develop educational site for university entrance exam tests practice.",
           "type": "Website",
-<<<<<<< HEAD
-          "langages": " Next js,Clerk",
-=======
           "langages": " Next js,Supabase,Clerk",
->>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
           "platform": "Custom (Built with Code)",
           "country": "Pakistan",
           "url": "www.taleemkasafar.com"
@@ -191,33 +187,6 @@
         }
       },
         {
-<<<<<<< HEAD
-        "thumbUrl": "/images/altaj.png",
-        "title": "Al Taj Ristorante",
-        "subTitle": " Ristorante",
-        "details": {
-          "title": "Under Development Italian Ristorante ",
-          "description": "Developed an italian base resturant site , Al Taj Ristorante , a restaurant website that offers a variety of Pak-Indian dishes and a seamless online ordering experience.",
-          "type": "Website",
-          "langages": " Next js",
-          "platform": "Custom (Built with Code)",
-          "country": "Pakistan",
-          "url": "www.altaj-ristorante.it"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-1.png",
-        "title": "Zocial Plug",
-        "subTitle": " Development",
-        "details": {
-          "title": "Develop website for Marketing Agency ",
-          "description": "Developed Zocial Plug, a marketing agency website offering branding, social media management, and digital growth strategies. Designed for performance, and user engagement to help businesses maximize their online presence.",
-          "type": "Website",
-          "langages": " HTML, CSS, JS",
-          "platform": "Custom (Built with Code)",
-          "country": "USA",
-          "url": "www.zocialplug.vercel.app"
-=======
         "thumbUrl": "/images/project5.png",
         "title": "TechVoc Institute",
         "subTitle": " Development",
@@ -229,7 +198,6 @@
           "platform": "Custom (Built with Code)",
           "country": "Pakistan",
           "url": "www.techvocinstitute.com"
->>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
         }
       },
       {
