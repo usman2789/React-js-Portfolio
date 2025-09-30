@@ -5,11 +5,7 @@ export default function Experience({ data }) {
   const { sectionHeading, allExperience } = data;
 
   return (
-<<<<<<< HEAD
-    <section id="experience" className="section gray-bg">
-=======
     <section className="section gray-bg">
->>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       <div className="container">
         <SectionHeading
           miniTitle={sectionHeading.miniTitle}
