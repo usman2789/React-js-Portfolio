@@ -5,8 +5,13 @@
     "heading": "Hay! I’m Usman",
     "typingText": ["I'm a Dev", 1500, "YOU'RE IN DEV ZONE!", 1500, "I TYPE, BUGS TAKE FLIGHT!", 1500],
     "description": "Creative developer turning ideas into smooth, impactful digital experiences — one line of code at a time.",
+<<<<<<< HEAD
     "btnText": "Let's Connect",
     "btnUrl": "contactus"
+=======
+    "btnText": "My Toolkit",
+    "btnUrl": "brands"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
   },
   "socialBtns": [
     { 
@@ -23,11 +28,14 @@
       "icon": "fa-brands:linkedin-in", 
       "iconBgClass": "linkedin", 
       "href": "https://linkedin.com/in/muhammad-usman-0ba87a289/" 
+<<<<<<< HEAD
     },
     { 
       "icon": "fa-solid:certificate", 
       "iconBgClass": "credly", 
       "href": "https://credly.com/users/usman2789" 
+=======
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
     }
   ],
   "brands": [
@@ -40,16 +48,26 @@
       "alt": "Next js"
     },
     {
+<<<<<<< HEAD
       "src": "/images/aws.svg",
       "alt": "AWS"
+=======
+      "src": "/images/supabase.svg",
+      "alt": "Supabase"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
     },
     {
       "src": "/images/tailwindcss.svg",
       "alt": "Tailwind Css"
     },
     {
+<<<<<<< HEAD
       "src": "/images/sql.svg",
       "alt": " Sql"
+=======
+      "src": "/images/postgre.svg",
+      "alt": "Postgre Sql"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
     },
     {
       "src": "/images/nodejs.svg",
@@ -58,6 +76,7 @@
     {
       "src": "/images/version.svg",
       "alt": "Version Control"
+<<<<<<< HEAD
     },
      {
       "src": "/images/wordpress.svg",
@@ -81,6 +100,19 @@
       {
         "title": "Positive Review",
         "number": "50"
+=======
+    }
+  ],
+  "about": {
+    "imgSrc": "/images/about-banner.png",
+    "miniTitle": "About Us",
+    "title": "I AM AVAILABLE FOR <span>DEVELOPMENT</span> PROJECTS",
+    "description": "I craft modern websites with AI integrations, fully responsive design, and high-speed performance — from sleek eCommerce platforms to scalable custom solutions. With smart SEO strategies and clean development, I help businesses grow and thrive in the digital space. Let’s build something exceptional! 🚀",
+    "funfacts": [
+      {
+        "title": "Positive Review",
+        "number": "75+"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       },
       {
         "title": "Years Experience",
@@ -88,7 +120,11 @@
       },
       {
         "title": "Completed Projects",
+<<<<<<< HEAD
         "number": "25"
+=======
+        "number": "25+"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       }
     ],
     "btnText": "Get in touch",
@@ -101,6 +137,23 @@
     },
     "allProjects": [
       {
+<<<<<<< HEAD
+=======
+        "thumbUrl": "/images/popup-project-1.png",
+        "title": "Zocial Plug",
+        "subTitle": " Development",
+        "details": {
+          "title": "Develop website for Marketing Agency ",
+          "description": "Developed Zocial Plug, a marketing agency website offering branding, social media management, and digital growth strategies. Designed for performance, and user engagement to help businesses maximize their online presence.",
+          "type": "Website",
+          "langages": " HTML, CSS, JS",
+          "platform": "Custom (Built with Code)",
+          "country": "USA",
+          "url": "www.zocialplug.com"
+        }
+      },
+       {
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
         "thumbUrl": "/images/project6.png",
         "title": "Taleem ka Safar",
         "subTitle": " Development",
@@ -108,14 +161,21 @@
           "title": "Education Website ",
           "description": "Design and develop educational site for university entrance exam tests practice.",
           "type": "Website",
+<<<<<<< HEAD
           "langages": " Next js,Clerk",
+=======
+          "langages": " Next js,Supabase,Clerk",
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
           "platform": "Custom (Built with Code)",
           "country": "Pakistan",
           "url": "www.taleemkasafar.com"
         }
       },
+<<<<<<< HEAD
       
        
+=======
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       {
         "thumbUrl": "/images/popup-project-2.png",
         "title": "AQ Solar Solutions",
@@ -131,6 +191,7 @@
         }
       },
         {
+<<<<<<< HEAD
         "thumbUrl": "/images/altaj.png",
         "title": "Al Taj Ristorante",
         "subTitle": " Ristorante",
@@ -156,6 +217,19 @@
           "platform": "Custom (Built with Code)",
           "country": "USA",
           "url": "www.zocialplug.vercel.app"
+=======
+        "thumbUrl": "/images/project5.png",
+        "title": "TechVoc Institute",
+        "subTitle": " Development",
+        "details": {
+          "title": "Develop website for Instiute ",
+          "description": "Developed TechVoc Institute site, a training institute website that offer different short courses and diplomas.",
+          "type": "Website",
+          "langages": " HTML, CSS, JS",
+          "platform": "Custom (Built with Code)",
+          "country": "Pakistan",
+          "url": "www.techvocinstitute.com"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
         }
       },
       {
@@ -169,6 +243,7 @@
           "langages": "HTML, CSS, JS",
           "platform": "Custom (Built with Code)",
           "country": "USA",
+<<<<<<< HEAD
           "url": "www.digitaluq.vercel.app"
         }
       },
@@ -198,6 +273,9 @@
           "platform": "WordPress",
           "country": "Pakistan",
           "url": "www.yousafncompany.com"
+=======
+          "url": "www.digitaluq.com"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
         }
       },
       {
@@ -206,7 +284,11 @@
         "subTitle": "Ecommerce Store  Development",
         "details": {
           "title": "Store Design and Devlopment for Startup",
+<<<<<<< HEAD
           "description": "Developed TheIgnite.pk, a feature-rich eCommerce store designed for seamless shopping experiences. Built with Shopify, secure payment gateways, and optimized for SEO & fast performance to maximize sales and customer engagement.[No more live]",
+=======
+          "description": "Developed TheIgnite.pk, a feature-rich eCommerce store designed for seamless shopping experiences. Built with Shopify, secure payment gateways, and optimized for SEO & fast performance to maximize sales and customer engagement.",
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
           "type": "Website",
           "langages": " Liquid, CSS, JS",
           "platform": "Shopify",
@@ -220,7 +302,11 @@
         "subTitle": " Store Development",
         "details": {
           "title": "Ecommerce store development",
+<<<<<<< HEAD
           "description": "Developed Arabesco Bazaar, a Shopify-based eCommerce store offering a seamless shopping experience. Integrated with secure payment gateways, mobile-friendly design, and SEO optimization to enhance conversions and brand visibility.[No more live]",
+=======
+          "description": "Developed Arabesco Bazaar, a Shopify-based eCommerce store offering a seamless shopping experience. Integrated with secure payment gateways, mobile-friendly design, and SEO optimization to enhance conversions and brand visibility.",
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
           "type": "Website",
           "langages": "Liquid, CSS, JS",
           "platform": "Shopify",
@@ -275,10 +361,17 @@
       {
         "designation": "FUll Stack Developer",
         "company": "DigiTaluq | REMOTE",
+<<<<<<< HEAD
         "duration": "DEC 2024 - July 2025",
         "jobType": "Part Time",
         "companyTitle": "DigiTaluq",
         "companyDescription": "During my time at DigiTaluq, I build smooth, high-performance websites primarily using Shopify, WordPress, HTML, CSS, JavaScript, React.js and Next js. I focus on creating responsive designs, optimizing SEO for better visibility, and delivering seamless user experiences that help businesses grow online."
+=======
+        "duration": "DEC 2024 - PRESENT",
+        "jobType": "Part Time",
+        "companyTitle": "DigiTaluq",
+        "companyDescription": "At DigiTaluq, I work as a Full-Stack Developer, building scalable and high-performance web applications. My role involves developing dynamic front-end experiences using React and Next.js, creating secure and efficient back-end APIs with Node.js and databases, and integrating AI solutions to enhance automation and user experience. Additionally, I focus on optimizing website performance and implementing SEO strategies to improve visibility. My goal is to craft modern web solutions that drive business success and deliver seamless digital experiences."
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       },
       {
         "designation": "Full Stack Developer",
@@ -286,7 +379,11 @@
         "duration": "OCT 2024-DEC 2024",
         "jobType": "Full time",
         "companyTitle": "Freelancing",
+<<<<<<< HEAD
         "companyDescription": "As a Freelance Developer, I have hands-on experience working on diverse projects across various domains. I have successfully delivered custom web applications,  e-commerce platforms, and SEO-optimized websites for clients. My projects come from local businesses, market referrals, and professional networks, allowing me to work on unique challenges and deliver tailored solutions. With expertise in React, Next.js, Node.js, database management, Wordpress and Shopify, I help businesses establish a strong digital presence and optimize their online operations."
+=======
+        "companyDescription": "As a Freelance Developer, I have hands-on experience working on diverse projects across various domains. I have successfully delivered custom web applications, AI-powered solutions, e-commerce platforms, and SEO-optimized websites for clients. My projects come from local businesses, market referrals, and professional networks, allowing me to work on unique challenges and deliver tailored solutions. With expertise in React, Next.js, Node.js, database management, AI integrations, and Shopify/WooCommerce, I help businesses establish a strong digital presence and optimize their online operations."
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       },
       {
         "designation": "Front-end Developer",
@@ -304,7 +401,16 @@
       "title": "Over <span>1,000+</span> <br /> PEOPLE TRUST ME"
     },
     "allTestimonial": [
+<<<<<<< HEAD
      
+=======
+      {
+        "reviewText": "Usman built my UAE-based eCommerce store on Shopify, and I’m extremely happy with the results. He was professional, detail-oriented, and made the entire process seamless. His expertise in web development ensured a smooth, functional, and visually appealing store. I highly recommend him to anyone looking for a skilled and reliable developer.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Ayesha Mohammad",
+        "avatarCompany": "Arabesco Bazaar"
+      },
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
       {
         "reviewText": "I've known Muhammad Usman for a long time, and his passion for technology is truly inspiring. He has exceptional skills in Next.js, Supabase, and Generative AI integration for web applications, always staying ahead of the curve. Beyond his technical expertise, he’s deeply involved in AWS community events, constantly learning and sharing his knowledge. His creative mindset and dedication to innovation make him a valuable asset. I highly recommend him for any role that requires a skilled and forward-thinking developer.",
         "avatarImg": "/images/avatar-2.jpg",
@@ -339,8 +445,13 @@
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
+<<<<<<< HEAD
       { "title": "Write an e-mail", "email": "hi@muhmdusman.site" },
       { "title": "conatct number", "tel": "+92 330 1358202" }
+=======
+      { "title": "Write an e-mail", "email": "usman@digitaluq.com" },
+      { "title": "conatct number", "tel": "+92 328-4151517" }
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
     ]
   }
 }

@@ -50,7 +50,11 @@ export default function Header() {
               Home
             </ScrollLink>
           </li>
+<<<<<<< HEAD
           {/* <li>
+=======
+          <li>
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
             <ScrollLink
               to="about"
               spy={true}
@@ -61,6 +65,7 @@ export default function Header() {
             >
               About Me
             </ScrollLink>
+<<<<<<< HEAD
           </li> */}
           <li>
             <ScrollLink
@@ -73,6 +78,8 @@ export default function Header() {
             >
               Skills
             </ScrollLink>
+=======
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
           </li>
           <li>
             <ScrollLink
@@ -88,14 +95,22 @@ export default function Header() {
           </li>
           <li>
             <ScrollLink
+<<<<<<< HEAD
               to="experience"
+=======
+              to="services"
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
               spy={true}
               smooth={true}
               offset={-80}
               duration={500}
               onClick={() => setMobileToggle(false)}
             >
+<<<<<<< HEAD
               Experience
+=======
+              Services
+>>>>>>> dab37e8b3de98c2a4410f760ddde8814d1a692c5
             </ScrollLink>
           </li>
           <li>
