@@ -273,6 +273,14 @@
     },
     "allExperience": [
       {
+        "designation": "Web Engineer",
+        "company": "MARKAZ | ON_SITE",
+        "duration": "NOV 2025 - PRESENT",
+        "jobType": "Full Time",
+        "companyTitle": "MARKAZ",
+        "companyDescription": "At Markaz, I work on building and scaling modern web applications with a strong focus on performance and reliability. I develop full-stack features using Next.js and MongoDB, while leveraging Firebase for real-time data handling and authentication workflows. I also optimize content delivery and application performance using Cloudflare and CDN strategies, ensuring low latency and high availability. My role involves designing efficient architectures, improving load times, and integrating scalable backend services to support growing user demand."
+      },
+      {
         "designation": "FUll Stack Developer",
         "company": "DigiTaluq | REMOTE",
         "duration": "DEC 2024 - July 2025",

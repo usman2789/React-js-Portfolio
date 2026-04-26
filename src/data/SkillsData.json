@@ -25,6 +25,18 @@
           "level": 88
         },
         {
+          "src": "/images/typescript.svg",
+          "alt": "TypeScript",
+          "name": "TypeScript",
+          "level": 85
+        },
+        {
+          "src": "/images/python.svg",
+          "alt": "Python",
+          "name": "Python",
+          "level": 80
+        },
+        {
           "src": "/images/sql.svg",
           "alt": "SQL",
           "name": "SQL",
@@ -94,6 +106,30 @@
           "alt": "Clerk",
           "name": "Clerk",
           "level": 88
+        },
+        {
+          "src": "/images/supabase.svg",
+          "alt": "Supabase",
+          "name": "Supabase",
+          "level": 84
+        },
+        {
+          "src": "/images/firebase.svg",
+          "alt": "Firebase",
+          "name": "Firebase",
+          "level": 83
+        },
+        {
+          "src": "/images/cloudflare.svg",
+          "alt": "Cloudflare",
+          "name": "Cloudflare",
+          "level": 82
+        },
+        {
+          "src": "/images/mongodb.svg",
+          "alt": "MongoDB",
+          "name": "MongoDB",
+          "level": 84
         }
       ],
       "other": [
