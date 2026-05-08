@@ -1,9 +1,20 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Icon } from '@iconify/react';
 import SectionHeading from './SectionHeading';
 
 export default function Skills({ data }) {
   const { sectionHeading, skillCategories } = data;
-  const [activeCategory, setActiveCategory] = useState('languages');
+  const defaultCategory = skillCategories[0]?.key || '';
+  const [activeCategory, setActiveCategory] = useState(defaultCategory);
+
+  useEffect(() => {
+    if (!skillCategories.some((category) => category.key === activeCategory)) {
+      setActiveCategory(defaultCategory);
+    }
+  }, [activeCategory, defaultCategory, skillCategories]);
+
+  const activeSkills =
+    skillCategories.find((category) => category.key === activeCategory)?.skills || [];
 
   return (
     <section className="section skills-section" id="skills">
@@ -18,30 +29,20 @@ export default function Skills({ data }) {
           <div className="row justify-content-center mb-5">
             <div className="col-12">
               <div className="filter-buttons d-flex flex-wrap justify-content-center gap-3">
-                <button
-                  className={`filter-btn ${activeCategory === 'languages' ? 'active' : ''}`}
-                  onClick={() => setActiveCategory('languages')}
-                >
-                  🔴 Languages
-                </button>
-                <button
-                  className={`filter-btn ${activeCategory === 'frameworks' ? 'active' : ''}`}
-                  onClick={() => setActiveCategory('frameworks')}
-                >
-                  🔵 Frameworks & Libraries
-                </button>
-                <button
-                  className={`filter-btn ${activeCategory === 'platforms' ? 'active' : ''}`}
-                  onClick={() => setActiveCategory('platforms')}
-                >
-                  🟣 Platforms & Tools
-                </button>
-                <button
-                  className={`filter-btn ${activeCategory === 'other' ? 'active' : ''}`}
-                  onClick={() => setActiveCategory('other')}
-                >
-                  🟠 Other Skills
-                </button>
+                {skillCategories.map((category) => (
+                  <button
+                    key={category.key}
+                    className={`filter-btn ${activeCategory === category.key ? 'active' : ''}`}
+                    onClick={() => setActiveCategory(category.key)}
+                    type="button"
+                  >
+                    <span
+                      className="filter-btn-dot"
+                      style={{ backgroundColor: category.accent }}
+                    />
+                    <span>{category.label}</span>
+                  </button>
+                ))}
               </div>
             </div>
           </div>
@@ -50,34 +51,38 @@ export default function Skills({ data }) {
         {/* Skills Grid */}
         <div className="skills-grid">
           <div className="row gy-4">
-            {skillCategories[activeCategory]?.map((skill, index) => (
-              <div className="col-6 col-md-4 col-lg-3" key={index}>
+            {activeSkills.map((skill, index) => (
+              <div className="col-12 col-sm-6 col-lg-4 col-xl-3" key={skill.name}>
                 <div
                   className="skill-card"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-delay={index * 100}
                 >
-                  <div className="skill-icon">
-                    <img src={skill.src} alt={skill.alt} />
+                  <div
+                    className={`skill-icon ${skill.logoVariant ? `skill-icon-${skill.logoVariant}` : ''}`}
+                  >
+                    <div className="skill-icon-shell">
+                      {skill.icon ? (
+                        <Icon
+                          className="skill-icon-glyph"
+                          icon={skill.icon}
+                          style={skill.iconColor ? { color: skill.iconColor } : undefined}
+                        />
+                      ) : (
+                        <img src={skill.src} alt={skill.name} />
+                      )}
+                    </div>
                   </div>
                   <div className="skill-info">
                     <h6 className="skill-name">{skill.name}</h6>
-                    <div className="skill-level">
-                      <div 
-                        className="skill-progress" 
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                    <span className="skill-percentage">{skill.level}%</span>
+                    {skill.note ? <p className="skill-note">{skill.note}</p> : null}
                   </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-
-        
       </div>
     </section>
   );

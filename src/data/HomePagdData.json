@@ -3,8 +3,8 @@
     "imgUrl": "/images/home-banner.png",
     "name": "Muhammad Usman",
     "heading": "Hay! I’m Usman",
-    "typingText": ["I'm a Dev", 1500, "YOU'RE IN DEV ZONE!", 1500, "I TYPE, BUGS TAKE FLIGHT!", 1500],
-    "description": "Creative developer turning ideas into smooth, impactful digital experiences — one line of code at a time.",
+    "typingText": ["I'm a Dev", 1500, "YOU'RE IN CLOUD!", 1500, "I TYPE, BUGS TAKE FLIGHT!", 1500],
+    "description": "Innovative engineer turning ideas into smooth, impactful digital experiences — focused on cloud technologies.",
     "btnText": "Let's Connect",
     "btnUrl": "contactus"
   },
@@ -12,7 +12,7 @@
     { 
       "icon": "fa-brands:github", 
       "iconBgClass": "github", 
-      "href": "https://github.com/usman2789" 
+      "href": "https://github.com/muhmdusman" 
     },
     { 
       "icon": "fa-brands:instagram", 
@@ -101,39 +101,37 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "/images/project6.png",
-        "title": "Taleem ka Safar",
-        "subTitle": " Development",
+        "thumbUrl": "/images/markaz.avif",
+        "title": "Markaz Web",
+        "subTitle": "Web Application Development",
         "details": {
-          "title": "Education Website ",
-          "description": "Design and develop educational site for university entrance exam tests practice.",
+          "title": "Markaz Web Platform",
+          "description": "Built and scaled modern web application features for Markaz with a strong focus on performance, reliability, and cloud-backed architecture. Worked across Next.js, MongoDB, Firebase, AWS Lambda APIs, GCP Cloud Run, Cloud Functions, and Cloudflare services to support secure and scalable product delivery.",
           "type": "Website",
-          "langages": " Next js,Clerk",
+          "langages": "Next.js, MongoDB, Firebase, AWS Lambda, GCP Cloud Run, Cloud Functions",
           "platform": "Custom (Built with Code)",
           "country": "Pakistan",
-          "url": "www.taleemkasafar.com"
+          "url": ""
         }
       },
-      
-       
       {
-        "thumbUrl": "/images/popup-project-2.png",
-        "title": "AQ Solar Solutions",
-        "subTitle": "Website Development",
+        "thumbUrl": "/images/popup-project-1.png",
+        "title": "Zocial Plug",
+        "subTitle": "Development",
         "details": {
-          "title": "Website  Development for Solar Company",
-          "description": "Developed Aq Solar Solution, a solar energy website designed for lead generation and customer engagement. Optimized for SEO, performance, and user-friendly navigation to enhance online visibility and conversions.",
+          "title": "Develop website for Marketing Agency ",
+          "description": "Developed Zocial Plug, a marketing agency website offering branding, social media management, and digital growth strategies. Designed for performance, and user engagement to help businesses maximize their online presence.",
           "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "Pakistan",
-          "url": "www.aqsolarsolution.com"
+          "langages": " HTML, CSS, JS",
+          "platform": "Custom (Built with Code)",
+          "country": "USA",
+          "url": "www.zocialplug.vercel.app"
         }
       },
-        {
+      {
         "thumbUrl": "/images/altaj.png",
         "title": "Al Taj Ristorante",
-        "subTitle": " Ristorante",
+        "subTitle": "Ristorante",
         "details": {
           "title": "Under Development Italian Ristorante ",
           "description": "Developed an italian base resturant site , Al Taj Ristorante , a restaurant website that offers a variety of Pak-Indian dishes and a seamless online ordering experience.",
@@ -145,17 +143,45 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-1.png",
-        "title": "Zocial Plug",
-        "subTitle": " Development",
+        "thumbUrl": "/images/project6.png",
+        "title": "Taleem ka Safar",
+        "subTitle": "Development",
         "details": {
-          "title": "Develop website for Marketing Agency ",
-          "description": "Developed Zocial Plug, a marketing agency website offering branding, social media management, and digital growth strategies. Designed for performance, and user engagement to help businesses maximize their online presence.",
+          "title": "Education Website ",
+          "description": "Design and develop educational site for university entrance exam tests practice.",
           "type": "Website",
-          "langages": " HTML, CSS, JS",
+          "langages": " Next js,Clerk",
           "platform": "Custom (Built with Code)",
-          "country": "USA",
-          "url": "www.zocialplug.vercel.app"
+          "country": "Pakistan",
+          "url": "www.taleemkasafar.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/ync.png",
+        "title": "Yousaf n Company",
+        "subTitle": "News Magazine Website Development",
+        "details": {
+          "title": "News Magazine Website Development",
+          "description": "Developed a news magazine website designed for seamless content delivery and user engagement. Built with WordPress, and optimized for fast performance to maximize customer engagement.",
+          "type": "Website",
+          "langages": " Html, CSS, JS,Jquery",
+          "platform": "WordPress",
+          "country": "UAE",
+          "url": ""
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-2.png",
+        "title": "AQ Solar Solutions",
+        "subTitle": "Website Development",
+        "details": {
+          "title": "Website Development for Solar Company",
+          "description": "Developed Aq Solar Solution, a solar energy website designed for lead generation and customer engagement. Optimized for SEO, performance, and user-friendly navigation to enhance online visibility and conversions.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "Pakistan",
+          "url": "www.aqsolarsolution.com"
         }
       },
       {
@@ -178,21 +204,7 @@
         "subTitle": "News Magazine Website Development",
         "details": {
           "title": "News Magazine Website Development",
-          "description": "Developed a news magazine website designed for seamless content delivery and user engagement. Built with WordPress, and optimized for  fast performance to maximize customer engagement.",
-          "type": "Website",
-          "langages": " Html, CSS, JS,Jquery",
-          "platform": "WordPress",
-          "country": "UAE",
-          "url": "www.moneymakersmedia.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/ync.png",
-        "title": "Yousaf n Company",
-        "subTitle": "News Magazine Website Development",
-        "details": {
-          "title": "News Magazine Website Development",
-          "description": "Developed a news magazine website designed for seamless content delivery and user engagement. Built with WordPress, and optimized for  fast performance to maximize customer engagement.",
+          "description": "Developed a news magazine website designed for seamless content delivery and user engagement. Built with WordPress, and optimized for fast performance to maximize customer engagement. Inactive, closed by client.",
           "type": "Website",
           "langages": " Html, CSS, JS,Jquery",
           "platform": "WordPress",
@@ -203,29 +215,15 @@
       {
         "thumbUrl": "/images/popup-project-4.png",
         "title": "Theignite.pk",
-        "subTitle": "Ecommerce Store  Development",
+        "subTitle": "Ecommerce Store Development",
         "details": {
           "title": "Store Design and Devlopment for Startup",
-          "description": "Developed TheIgnite.pk, a feature-rich eCommerce store designed for seamless shopping experiences. Built with Shopify, secure payment gateways, and optimized for SEO & fast performance to maximize sales and customer engagement.[No more live]",
+          "description": "Developed TheIgnite.pk, a feature-rich eCommerce store designed for seamless shopping experiences. Built with Shopify, secure payment gateways, and optimized for SEO and fast performance to maximize sales and customer engagement. Inactive, closed by client.",
           "type": "Website",
           "langages": " Liquid, CSS, JS",
           "platform": "Shopify",
           "country": "Pakistan",
           "url": "www.theignite.pk"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-4.jpg",
-        "title": "ArabescoBazaar",
-        "subTitle": " Store Development",
-        "details": {
-          "title": "Ecommerce store development",
-          "description": "Developed Arabesco Bazaar, a Shopify-based eCommerce store offering a seamless shopping experience. Integrated with secure payment gateways, mobile-friendly design, and SEO optimization to enhance conversions and brand visibility.[No more live]",
-          "type": "Website",
-          "langages": "Liquid, CSS, JS",
-          "platform": "Shopify",
-          "country": "UAE",
-          "url": "www.arabescobazaar.com"
         }
       }
     ]
@@ -275,31 +273,24 @@
       {
         "designation": "Web Engineer",
         "company": "MARKAZ | ON_SITE",
-        "duration": "NOV 2025 - PRESENT",
+        "duration": "SEP 2025 - MAY 2026",
         "jobType": "Full Time",
         "companyTitle": "MARKAZ",
-        "companyDescription": "At Markaz, I work on building and scaling modern web applications with a strong focus on performance and reliability. I develop full-stack features using Next.js and MongoDB, while leveraging Firebase for real-time data handling and authentication workflows. I also optimize content delivery and application performance using Cloudflare and CDN strategies, ensuring low latency and high availability. My role involves designing efficient architectures, improving load times, and integrating scalable backend services to support growing user demand."
+        "companyDescription": "At Markaz, I work on building and scaling modern web applications with a strong focus on performance and reliability. I develop full-stack features using Next.js and MongoDB, while leveraging Firebase for real-time data handling and authentication workflows. I also build and integrate backend APIs using AWS Lambda, and work with GCP Cloud Run and Cloud Functions for scalable cloud-based services. I optimize content delivery and application performance using Cloudflare services including Workers, R2 storage, Cloudflare Images, WAF, and CDN strategies, ensuring low latency, strong security, and high availability. My role involves designing efficient architectures, improving load times, and integrating scalable backend services to support growing user demand."
       },
       {
         "designation": "FUll Stack Developer",
         "company": "DigiTaluq | REMOTE",
-        "duration": "DEC 2024 - July 2025",
+        "duration": "NOV 2024 - July 2025",
         "jobType": "Part Time",
         "companyTitle": "DigiTaluq",
         "companyDescription": "During my time at DigiTaluq, I build smooth, high-performance websites primarily using Shopify, WordPress, HTML, CSS, JavaScript, React.js and Next js. I focus on creating responsive designs, optimizing SEO for better visibility, and delivering seamless user experiences that help businesses grow online."
       },
-      {
-        "designation": "Full Stack Developer",
-        "company": "Freelancing | REMOTE",
-        "duration": "OCT 2024-DEC 2024",
-        "jobType": "Full time",
-        "companyTitle": "Freelancing",
-        "companyDescription": "As a Freelance Developer, I have hands-on experience working on diverse projects across various domains. I have successfully delivered custom web applications,  e-commerce platforms, and SEO-optimized websites for clients. My projects come from local businesses, market referrals, and professional networks, allowing me to work on unique challenges and deliver tailored solutions. With expertise in React, Next.js, Node.js, database management, Wordpress and Shopify, I help businesses establish a strong digital presence and optimize their online operations."
-      },
+      
       {
         "designation": "Front-end Developer",
         "company": "Daira Eng. | ON_Site",
-        "duration": "JULY 2024 - SEPT 2024",
+        "duration": "JULY 2024 - OCT 2024",
         "jobType": "Full time",
         "companyTitle": "Daira Eng.",
         "companyDescription": "I began my professional career at Daira Engineering, where I gained hands-on experience in modern web development. During my time there, I worked extensively with React and Tailwind CSS, building dynamic and responsive user interfaces. It was at Daira Engineering that I first explored Next.js and Node.js, deepening my understanding of full-stack development. This experience laid the foundation for my expertise in creating scalable web applications and integrating efficient front-end and back-end technologies."
@@ -347,7 +338,7 @@
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "muhammad.usman@markaz.app" },
+      { "title": "Write an e-mail", "email": "amusman9705@gmail.com" },
       { "title": "conatct number", "tel": "+92 330 1358202" }
     ]
   }

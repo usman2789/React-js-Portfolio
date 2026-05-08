@@ -4,160 +4,230 @@
       "miniTitle": "Technical Skills",
       "title": "My <span>Technical</span> Expertise"
     },
-    "skillCategories": {
-      "languages": [
-        {
-          "src": "/images/html.svg",
-          "alt": "HTML",
-          "name": "HTML",
-          "level": 95
-        },
-        {
-          "src": "/images/css.svg",
-          "alt": "CSS",
-          "name": "CSS",
-          "level": 92
-        },
-        {
-          "src": "/images/js.svg",
-          "alt": "JavaScript",
-          "name": "JavaScript",
-          "level": 88
-        },
-        {
-          "src": "/images/typescript.svg",
-          "alt": "TypeScript",
-          "name": "TypeScript",
-          "level": 85
-        },
-        {
-          "src": "/images/python.svg",
-          "alt": "Python",
-          "name": "Python",
-          "level": 80
-        },
-        {
-          "src": "/images/sql.svg",
-          "alt": "SQL",
-          "name": "SQL",
-          "level": 82
-        }
-      ],
-      "frameworks": [
-        {
-          "src": "/images/reactjs.svg",
-          "alt": "React",
-          "name": "React",
-          "level": 95
-        },
-        {
-          "src": "/images/nextjs.svg",
-          "alt": "Next.js",
-          "name": "Next.js",
-          "level": 90
-        },
-        {
-          "src": "/images/tailwindcss.svg",
-          "alt": "Tailwind CSS",
-          "name": "Tailwind CSS",
-          "level": 92
-        },
-        {
-          "src": "/images/shadcnui.svg",
-          "alt": "ShadCN UI",
-          "name": "ShadCN UI",
-          "level": 85
-        }
-      ],
-      "platforms": [
-       
-        {
-          "src": "/images/wordpress.svg",
-          "alt": "WordPress",
-          "name": "WordPress",
-          "level": 88
-        },
-        {
-          "src": "/images/shopify.svg",
-          "alt": "Shopify",
-          "name": "Shopify",
-          "level": 85
-        },
-         {
-          "src": "/images/aws.svg",
-          "alt": "AWS",
-          "name": "AWS",
-          "level": 75
-        },
-        {
-          "src": "/images/vercel.svg",
-          "alt": "Vercel",
-          "name": "Vercel",
-          "level": 88
-        },
-        {
-          "src": "/images/version.svg",
-          "alt": "Version Control",
-          "name": "Git/GitHub",
-          "level": 90
-        },
-        {
-          "src": "/images/clerk.svg",
-          "alt": "Clerk",
-          "name": "Clerk",
-          "level": 88
-        },
-        {
-          "src": "/images/supabase.svg",
-          "alt": "Supabase",
-          "name": "Supabase",
-          "level": 84
-        },
-        {
-          "src": "/images/firebase.svg",
-          "alt": "Firebase",
-          "name": "Firebase",
-          "level": 83
-        },
-        {
-          "src": "/images/cloudflare.svg",
-          "alt": "Cloudflare",
-          "name": "Cloudflare",
-          "level": 82
-        },
-        {
-          "src": "/images/mongodb.svg",
-          "alt": "MongoDB",
-          "name": "MongoDB",
-          "level": 84
-        }
-      ],
-      "other": [
-        {
-          "src": "/images/seo.svg",
-          "alt": "SEO Optimization",
-          "name": "SEO Optimization",
-          "level": 85
-        },
-        {
-          "src": "/images/effect-4.svg",
-          "alt": "Responsive Design",
-          "name": "Responsive Design",
-          "level": 95
-        },
-        {
-          "src": "/images/figma.svg",
-          "alt": "Designing",
-          "name": "Figma",
-          "level": 88
-        },
-        {
-          "src": "/images/effect-2.svg",
-          "alt": "Gemini API",
-          "name": "Gemini API",
-          "level": 80
-        }
-      ]
-    }
+    "skillCategories": [
+      {
+        "key": "frontend",
+        "label": "Frontend Development",
+        "accent": "#ff6b6b",
+        "skills": [
+          {
+            "name": "HTML5",
+            "icon": "simple-icons:html5",
+            "iconColor": "#e34f26"
+          },
+          {
+            "name": "CSS3",
+            "icon": "simple-icons:css3",
+            "iconColor": "#1572b6"
+          },
+          {
+            "name": "JavaScript (ES6+)",
+            "icon": "simple-icons:javascript",
+            "iconColor": "#f7df1e"
+          },
+          {
+            "name": "React.js",
+            "icon": "simple-icons:react",
+            "iconColor": "#61dafb"
+          },
+          {
+            "name": "Next.js",
+            "icon": "simple-icons:nextdotjs",
+            "iconColor": "#ffffff"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "simple-icons:tailwindcss",
+            "iconColor": "#06b6d4"
+          }
+        ]
+      },
+      {
+        "key": "backend",
+        "label": "Backend & APIs",
+        "accent": "#3b82f6",
+        "skills": [
+          {
+            "name": "Python",
+            "src": "/images/python.svg"
+          },
+          {
+            "name": "Node.js",
+            "icon": "simple-icons:nodedotjs",
+            "iconColor": "#5fa04e"
+          },
+          {
+            "name": "REST APIs",
+            "icon": "mdi:api",
+            "iconColor": "#38bdf8"
+          },
+          {
+            "name": "API Development & Integration",
+            "icon": "mdi:link-variant",
+            "iconColor": "#a855f7",
+            "note": "Custom and third-party services"
+          },
+          {
+            "name": "Postman",
+            "icon": "logos:postman-icon"
+          },
+          {
+            "name": "Firebase",
+            "src": "/images/firebase.svg"
+          },
+          {
+            "name": "Supabase",
+            "icon": "simple-icons:supabase",
+            "iconColor": "#3ecf8e"
+          },
+          {
+            "name": "Clerk Authentication",
+            "icon": "simple-icons:clerk",
+            "iconColor": "#6c47ff",
+            "note": "Authentication and user management"
+          }
+        ]
+      },
+      {
+        "key": "cloud",
+        "label": "Cloud & Infrastructure",
+        "accent": "#8b5cf6",
+        "skills": [
+          {
+            "name": "AWS",
+            "icon": "simple-icons:amazonaws",
+            "iconColor": "#ff9900",
+            "note": "Lambda, Bedrock, Amplify, IAM, DynamoDB"
+          },
+          {
+            "name": "Google Cloud Platform",
+            "icon": "logos:google-cloud",
+            "note": "GCP services and deployments"
+          },
+          {
+            "name": "Cloudflare Workers",
+            "src": "/images/cloudflare.svg",
+            "note": "Workers, R2 storage, Cloudflare Images, and WAF"
+          },
+          {
+            "name": "Vercel",
+            "icon": "simple-icons:vercel",
+            "iconColor": "#ffffff"
+          },
+          {
+            "name": "Railway",
+            "icon": "simple-icons:railway",
+            "iconColor": "#ffffff"
+          },
+          {
+            "name": "CI/CD Pipelines",
+            "icon": "mdi:source-branch",
+            "iconColor": "#22c55e",
+            "note": "Automated build and release workflows"
+          }
+        ]
+      },
+      {
+        "key": "databases",
+        "label": "Databases",
+        "accent": "#22c55e",
+        "skills": [
+          {
+            "name": "MongoDB",
+            "src": "/images/mongodb.svg"
+          },
+          {
+            "name": "DynamoDB",
+            "icon": "simple-icons:amazondynamodb",
+            "iconColor": "#7aa2ff"
+          },
+          {
+            "name": "Supabase PostgreSQL",
+            "icon": "simple-icons:postgresql",
+            "iconColor": "#336791",
+            "note": "Supabase-managed Postgres"
+          },
+          {
+            "name": "Firebase Firestore",
+            "src": "/images/firebase.svg",
+            "note": "Cloud Firestore database design"
+          }
+        ]
+      },
+      {
+        "key": "devops",
+        "label": "DevOps & Tools",
+        "accent": "#f59e0b",
+        "skills": [
+          {
+            "name": "Git",
+            "icon": "logos:git-icon"
+          },
+          {
+            "name": "GitHub",
+            "icon": "simple-icons:github",
+            "iconColor": "#ffffff"
+          },
+          {
+            "name": "Deployment & Hosting",
+            "icon": "mdi:cloud-upload-outline",
+            "iconColor": "#f59e0b",
+            "note": "Production hosting and rollouts"
+          },
+          {
+            "name": "Performance Optimization",
+            "icon": "mdi:gauge",
+            "iconColor": "#06b6d4",
+            "note": "Fast loading, responsiveness, and UX"
+          }
+        ]
+      },
+      {
+        "key": "cms",
+        "label": "CMS & Platforms",
+        "accent": "#ec4899",
+        "skills": [
+          {
+            "name": "Shopify",
+            "icon": "simple-icons:shopify",
+            "iconColor": "#7ab55c"
+          },
+          {
+            "name": "WordPress",
+            "icon": "simple-icons:wordpress",
+            "iconColor": "#21759b"
+          }
+        ]
+      },
+      {
+        "key": "design",
+        "label": "Design & SEO",
+        "accent": "#14b8a6",
+        "skills": [
+          {
+            "name": "Figma",
+            "icon": "simple-icons:figma",
+            "iconColor": "#f24e1e"
+          },
+          {
+            "name": "Technical SEO",
+            "icon": "mdi:magnify-scan",
+            "iconColor": "#38bdf8"
+          },
+          {
+            "name": "Core Web Vitals",
+            "icon": "mdi:heart-pulse",
+            "iconColor": "#ef4444",
+            "note": "LCP, CLS, and INP improvements"
+          },
+          {
+            "name": "Rendering Optimization",
+            "icon": "mdi:layers-triple-outline",
+            "iconColor": "#818cf8",
+            "note": "SSR, static rendering, and hydration"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@ export default function Experience({ data }) {
   const { sectionHeading, allExperience } = data;
 
   return (
-    <section className="section gray-bg">
+    <section className="section gray-bg" id="experience">
       <div className="container">
         <SectionHeading
           miniTitle={sectionHeading.miniTitle}

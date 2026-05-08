@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Projects from '../components/Projects';
-import Testimonial from '../components/Testimonial';
+// import Testimonial from '../components/Testimonial';
 import Hero from '../components/Hero';
-import About from '../components/About';
-import Service from '../components/Service';
+// import About from '../components/About';
+// import Service from '../components/Service';
 import SkillsComponent from '../components/Skills';
 import HomePagdData from '../data/HomePagdData.json';
 import SkillsData from '../data/SkillsData.json';
@@ -18,11 +18,11 @@ export default function Home() {
     hero,
     socialBtns,
    
-    about,
+    // about,
     projects,
-    service,
+    // service,
     experience,
-    testimonial,
+    // testimonial,
     contact,
   } = HomePagdData;
   
@@ -32,13 +32,13 @@ export default function Home() {
     <>
       <Hero data={hero} socialData={socialBtns} />
   
-      <About data={about} />
+      {/* <About data={about} /> */}
       <SkillsComponent data={skills} />
       <Projects data={projects} />
-      <Service data={service} />
+      {/* <Service data={service} /> */}
       <Experience data={experience} />
       {/* <Blog data={BlogData} /> */}
-      <Testimonial data={testimonial} />
+      {/* <Testimonial data={testimonial} /> */}
       <Contact data={contact} socialData={socialBtns} />
     </>
   );
