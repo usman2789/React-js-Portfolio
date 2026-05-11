@@ -39,6 +39,18 @@
             "name": "Tailwind CSS",
             "icon": "simple-icons:tailwindcss",
             "iconColor": "#06b6d4"
+          },
+          {
+            "name": "Leaflet",
+            "icon": "simple-icons:leaflet",
+            "iconColor": "#199900",
+            "note": "Lightweight interactive web maps"
+          },
+          {
+            "name": "Mapbox GL JS",
+            "icon": "simple-icons:mapbox",
+            "iconColor": "#ffffff",
+            "note": "Vector tiles and dynamic map rendering"
           }
         ]
       },
@@ -66,6 +78,12 @@
             "icon": "mdi:link-variant",
             "iconColor": "#a855f7",
             "note": "Custom and third-party services"
+          },
+          {
+            "name": "GeoServer",
+            "icon": "mdi:server-network",
+            "iconColor": "#38bdf8",
+            "note": "Spatial APIs, tiles, and geodata publishing"
           },
           {
             "name": "Postman",
@@ -146,6 +164,18 @@
             "icon": "simple-icons:postgresql",
             "iconColor": "#336791",
             "note": "Supabase-managed Postgres"
+          },
+          {
+            "name": "PostGIS",
+            "icon": "simple-icons:postgresql",
+            "iconColor": "#336791",
+            "note": "Spatial indexing and geometry queries on PostgreSQL"
+          },
+          {
+            "name": "GeoJSON",
+            "icon": "mdi:code-json",
+            "iconColor": "#f59e0b",
+            "note": "Geospatial feature and geometry interchange"
           },
           {
             "name": "Firebase Firestore",
